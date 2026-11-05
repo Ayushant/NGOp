@@ -1,0 +1,6 @@
+{
+  "name": "Kamdhenu Seva — Royal Gaushala & Cow Nourishment Sanctuary",
+  "description": "A refined patronage and interactive cow nourishment platform to select fresh green grass and traditional Indian food (Gud, Roti, Ayurvedic Laddoos), complete transparent payment, schedule sanctuary delivery, and manually feed resident Gir and Sahiwal cows.",
+  "requestFramePermissions": [],
+  "majorCapabilities": ["MAJOR_CAPABILITY_SERVER_SIDE_GEMINI_API"]
+}
