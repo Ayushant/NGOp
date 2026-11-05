@@ -1,3 +1,8 @@
+import heroGirCowImg from '../assets/images/hero_gir_cow_sanctuary_1793840137754.jpg';
+import feedFreshGrassImg from '../assets/images/feed_fresh_napier_grass_1793840137165.jpg';
+import feedGudRotiImg from '../assets/images/feed_gud_roti_thali_1793840138205.jpg';
+import feedAyurvedicLaddooImg from '../assets/images/feed_ayurvedic_laddoo_1793840138023.jpg';
+
 export type OfferingCategory = 'all' | 'grass' | 'indian-food' | 'ayurvedic';
 
 export interface FoodOffering {
@@ -37,10 +42,10 @@ export interface PatronagePrizeTier {
   badgeCode: string;
 }
 
-export const HERO_IMAGE_URL = '/src/assets/images/hero_gir_cow_sanctuary_1793840137754.jpg';
-export const GRASS_IMAGE_URL = '/src/assets/images/feed_fresh_napier_grass_1793840137165.jpg';
-export const THALI_IMAGE_URL = '/src/assets/images/feed_gud_roti_thali_1793840138205.jpg';
-export const LADDOO_IMAGE_URL = '/src/assets/images/feed_ayurvedic_laddoo_1793840138023.jpg';
+export const HERO_IMAGE_URL = heroGirCowImg;
+export const GRASS_IMAGE_URL = feedFreshGrassImg;
+export const THALI_IMAGE_URL = feedGudRotiImg;
+export const LADDOO_IMAGE_URL = feedAyurvedicLaddooImg;
 
 export const FOOD_OFFERINGS: FoodOffering[] = [
   {
@@ -131,7 +136,7 @@ export const FOOD_OFFERINGS: FoodOffering[] = [
   {
     id: 'royal-chhappan-gau-bhoj',
     name: 'Royal Courtyard Gau-Gras Feast (Full Trough)',
-    hindiTitle: 'Rajसी Gau-Bhoj Samagri',
+    hindiTitle: 'Rajsi Gau-Bhoj Samagri',
     category: 'ayurvedic',
     categoryLabel: 'Royal Patron Feast',
     priceInr: 2500,
